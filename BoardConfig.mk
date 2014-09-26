@@ -37,9 +37,10 @@ TARGET_NO_BOOTLOADER := true
 TARGET_NO_RADIOIMAGE := true
 
 # Kernel
-TARGET_KERNEL_CONFIG := cyanogenmod_kyle02_defconfig
+TARGET_KERNEL_CONFIG := cm_kylessopen_30060_defconfig
 TARGET_KERNEL_SOURCE := kernel/samsung/kylessopen
-TARGET_KERNEL_CUSTOM_TOOLCHAIN := sabermod-arm-eabi-4.7
+#TARGET_KERNEL_CUSTOM_TOOLCHAIN := sabermod-arm-eabi-4.7
+TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-eabi-linaro-4.6.2
 TARGET_BOOTLOADER_BOARD_NAME := kylessopen
 BOARD_KERNEL_CMDLINE := androidboot.hardware=kylessopen
 BOARD_KERNEL_BASE := 0x00200000
@@ -149,7 +150,7 @@ BOARD_CUSTOM_RECOVERY_KEYMAPPING := ../../device/samsung/kylessopen/recovery/rec
 TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/devices/platform/msm_hsusb/gadget/lun%d/file
 BOARD_UMS_LUNFILE := "/sys/devices/platform/msm_hsusb/gadget/lun%d/file"
 TARGET_USERIMAGES_USE_EXT4 := true
-BOARD_HAS_SDCARD_INTERNAL := trues
+BOARD_HAS_SDCARD_INTERNAL := true
 BOARD_HAS_DOWNLOAD_MODE := true
 BOARD_USES_MMCUTILS := true
 BOARD_HAS_NO_MISC_PARTITION := true
