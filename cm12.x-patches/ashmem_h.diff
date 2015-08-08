@@ -1,0 +1,21 @@
+--- a/device/samsung/kylessopen/include/linux/ashmem.h	2015-08-05 22:49:21.039382859 -0400
++++ b/device/samsung/kylessopen/include/linux/ashmem.h	2015-07-11 14:09:47.688808147 -0400
+@@ -14,6 +14,7 @@
+ 
+ #include <linux/limits.h>
+ #include <linux/ioctl.h>
++#include <linux/types.h>
+ 
+ #define ASHMEM_NAME_LEN		256
+ 
+@@ -48,8 +49,8 @@
+ #define ASHMEM_CACHE_CLEAN_RANGE	_IO(__ASHMEMIOC, 12)
+ #define ASHMEM_CACHE_INV_RANGE		_IO(__ASHMEMIOC, 13)
+ 
+-int get_ashmem_file(int fd, struct file **filp, struct file **vm_file,
++/* int get_ashmem_file(int fd, struct file **filp, struct file **vm_file,
+ 			unsigned long *len);
+-void put_ashmem_file(struct file *file);
++void put_ashmem_file(struct file *file); */
+ 
+ #endif	/* _LINUX_ASHMEM_H */

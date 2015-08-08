@@ -1,0 +1,19 @@
+diff --git a/libc/arch-arm/arm.mk b/libc/arch-arm/arm.mk
+index 2066c22..8aa84e3 100644
+--- a/bionic/libc/arch-arm/arm.mk
++++ b/bionic/libc/arch-arm/arm.mk
+@@ -71,10 +71,10 @@ ifeq ($(strip $(TARGET_$(my_2nd_arch_prefix)CPU_VARIANT)),)
+   $(warning TARGET_$(my_2nd_arch_prefix)ARCH is arm, but TARGET_$(my_2nd_arch_prefix)CPU_VARIANT is not defined)
+ endif
+ 
+-ifeq ($(filter cortex-a9 cortex-a53 denver krait scorpion, $(strip $(TARGET_$(my_2nd_arch_prefix)CPU_VARIANT))),)
+-libc_bionic_src_files_arm += \
+-    upstream-openbsd/lib/libc/string/stpcpy.c
+-endif
++#ifeq ($(filter cortex-a9 cortex-a53 denver krait scorpion, $(strip $(TARGET_$(my_2nd_arch_prefix)CPU_VARIANT))),)
++#libc_bionic_src_files_arm += \
++#    upstream-openbsd/lib/libc/string/stpcpy.c
++#endif
+ 
+ ifeq ($(filter cortex-a53 krait scorpion, $(strip $(TARGET_$(my_2nd_arch_prefix)CPU_VARIANT))),)
+ libc_bionic_src_files_arm += \

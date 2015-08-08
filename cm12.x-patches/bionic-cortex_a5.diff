@@ -1,0 +1,5 @@
+diff -urN cm12.1/bionic/libc/arch-arm/cortex-a5/cortex-a5.mk cm12.1.bork/bionic/libc/arch-arm/cortex-a5/cortex-a5.mk
+--- cm12.1.a/bionic/libc/arch-arm/cortex-a5/cortex-a5.mk	1969-12-31 19:00:00.000000000 -0500
++++ cm12.1.b/bionic/libc/arch-arm/cortex-a5/cortex-a5.mk	2015-07-11 09:38:38.259288578 -0400
+@@ -0,0 +1 @@
++include bionic/libc/arch-arm/cortex-a9/cortex-a9.mk

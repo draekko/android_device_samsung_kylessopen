@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <!--Repositories to remove-->
+    <!-- 
+    <remove-project name="CyanogenMod/android_frameworks_native"/>
+    -->
+    <!-- <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" /> -->
+    <!-- <remove-project name="platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" /> -->
+    <!-- <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" /> -->
+    <remove-project name="CyanogenMod/android_packages_apps_CMBugreport" />
+    <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
+    <remove-project name="platform/prebuilts/clang/darwin-x86/3.1" />
+    <remove-project name="platform/prebuilts/clang/darwin-x86/3.2" />
+    <remove-project name="platform/prebuilts/clang/darwin-x86/arm/3.3" />
+    <remove-project name="platform/prebuilts/clang/darwin-x86/host/3.4" />
+    <remove-project name="platform/prebuilts/clang/darwin-x86/host/3.5" />
+    <remove-project name="platform/prebuilts/clang/darwin-x86/mips/3.3" />
+    <remove-project name="platform/prebuilts/clang/darwin-x86/x86/3.3" />
+    <remove-project name="platform/prebuilts/clang/linux-x86/mips/3.3" />
+    <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.8" />
+    <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" />
+    <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.8" />
+    <remove-project name="platform/prebuilts/gcc/darwin-x86/host/headers" />
+    <remove-project name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" />
+    <remove-project name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.8" />
+    <remove-project name="platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.8" />
+    <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.8" />
+    <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" />
+    <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" />
+    <remove-project name="platform/prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9" />
+    <remove-project name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.8" />
+    <remove-project name="platform/prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.8" />
+    <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />
+    <remove-project name="CyanogenMod/android_bootable_recovery" />
+    <remove-project name="CyanogenMod/android_frameworks_av"/>
+    <remove-project name="CyanogenMod/android_hardware_qcom_display" />
+    <remove-project name="CyanogenMod/android_hardware_qcom_media" />
+    <remove-project name="CyanogenMod/android_frameworks_native" />
+
+    <!-- Local projects -->
+    <project path="frameworks/av" name="HtcLegacy/android_frameworks_av" revision="cm-12.1" />
+    <project path="frameworks/native" name="HtcLegacy/android_frameworks_native" revision="cm-12.1" />
+    <project path="hardware/atheros/wifi/libs" name="CyanogenMod/android_hardware_atheros_wlan" revision="cm-12.1" />
+    <project path="hardware/qcom/display" name="HtcLegacy/android_hardware_qcom_display" revision="cm-12.1-caf-msm7x27a" />
+    <project path="hardware/qcom/media" name="HtcLegacy/android_hardware_qcom_media" revision="cm-12.1-caf-msm7x27a" />
+
+    <!-- Toolchain -->
+    <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="draekko/android_prebuilts_gcc_linux-x86_arm_sabermod-arm-eabi-4.7" revision="master" />
+
+    <!-- TWRP replacement -->
+    <project path="bootable/recovery" name="TeamWin/Team-Win-Recovery-Project" revision="android-5.1" /> -->
+
+    <!-- GT-S7560M -->
+    <project path="device/samsung/kylessopen" name="draekko/android_device_samsung_kylessopen" revision="master" />
+    <project path="kernel/samsung/kylessopen" name="draekko/android_kernel_ba2x_2.0" revision="master" />
+    <project path="vendor/samsung/kylessopen" name="draekko/android_vendor_samsung_kylessopen" revision="master" />
+
+</manifest>
+
