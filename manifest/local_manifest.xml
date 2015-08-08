@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- TWRP replacement -->
+    <remove-project name="CyanogenMod/android_bootable_recovery" />
+    <project path="bootable/recovery" name="draekko/android_bootable_recovery" revision="android-4.4" />
+
+    <!-- CM replacements -->
+    <remove-project name="CyanogenMod/android_frameworks_av" />
+    <project path="frameworks/av" name="legaCyMod/android_frameworks_av" revision="cm-11.0" />
+    <remove-project name="CyanogenMod/android_hardware_libhardware_legacy" />
+    <project path="hardware/libhardware_legacy" name="johnnyslt/android_hardware_libhardware_legacy" revision="cm-11.0" />
+
+    <!-- Local projects -->
+    <project path="hardware/atheros/wifi/libs" name="legaCyMod/android_hardware_atheros_wlan" revision="cm-11.0" />
+    <project path="hardware/qcom/display-legacy" name="legaCyMod/android_hardware_qcom_display-legacy" revision="cm-11.0" />
+    <project path="hardware/qcom/media-legacy" name="legaCyMod/android_hardware_qcom_media-legacy" revision="cm-11.0" />
+</manifest>
