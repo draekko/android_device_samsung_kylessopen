@@ -52,7 +52,7 @@
     <project path="bootable/recovery" name="TeamWin/Team-Win-Recovery-Project" revision="android-5.1" /> -->
 
     <!-- GT-S7560M -->
-    <project path="device/samsung/kylessopen" name="draekko/android_device_samsung_kylessopen" revision="master" />
+    <project path="device/samsung/kylessopen" name="draekko/android_device_samsung_kylessopen" revision="cm12.1" />
     <project path="kernel/samsung/kylessopen" name="draekko/android_kernel_ba2x_2.0" revision="master" />
     <project path="vendor/samsung/kylessopen" name="draekko/android_vendor_samsung_kylessopen" revision="master" />
 
